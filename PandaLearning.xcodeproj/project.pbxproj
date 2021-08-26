@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		4999E4A326D7877F00D3CBAC /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4999E4A226D7877F00D3CBAC /* Login.storyboard */; };
 		4999E4AB26D7964500D3CBAC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4999E4AA26D7964500D3CBAC /* LoginViewController.swift */; };
-		4999E4AD26D7969700D3CBAC /* UserLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4999E4AC26D7969700D3CBAC /* UserLogin.swift */; };
-		4999E4AF26D79B1800D3CBAC /* EditableTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4999E4AE26D79B1800D3CBAC /* EditableTextCell.swift */; };
 		49D81DF826D5F45A00DDC913 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D81DF726D5F45A00DDC913 /* Video.swift */; };
 		49D81DFA26D5F46600DDC913 /* PlaybackController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D81DF926D5F46600DDC913 /* PlaybackController.swift */; };
 		49D81DFC26D5F46E00DDC913 /* PlayerViewControllerCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D81DFB26D5F46E00DDC913 /* PlayerViewControllerCoordinator.swift */; };
@@ -31,8 +29,6 @@
 		1C5BD25FE863D54F247AFF37 /* Pods-PandaLearning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PandaLearning.debug.xcconfig"; path = "Target Support Files/Pods-PandaLearning/Pods-PandaLearning.debug.xcconfig"; sourceTree = "<group>"; };
 		4999E4A226D7877F00D3CBAC /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		4999E4AA26D7964500D3CBAC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		4999E4AC26D7969700D3CBAC /* UserLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLogin.swift; sourceTree = "<group>"; };
-		4999E4AE26D79B1800D3CBAC /* EditableTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableTextCell.swift; sourceTree = "<group>"; };
 		49D81DF626D5F42400DDC913 /* Using AVKit in iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Using AVKit in iOS.entitlements"; sourceTree = "<group>"; };
 		49D81DF726D5F45A00DDC913 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		49D81DF926D5F46600DDC913 /* PlaybackController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaybackController.swift; sourceTree = "<group>"; };
@@ -107,8 +103,6 @@
 				49D81DFD26D5F48500DDC913 /* UI Elements */,
 				49D81E0626D5F4F600DDC913 /* Main.storyboard */,
 				4999E4A226D7877F00D3CBAC /* Login.storyboard */,
-				4999E4AC26D7969700D3CBAC /* UserLogin.swift */,
-				4999E4AE26D79B1800D3CBAC /* EditableTextCell.swift */,
 				4999E4AA26D7964500D3CBAC /* LoginViewController.swift */,
 				49F6E93826BA356E00857EBA /* Assets.xcassets */,
 				49F6E93A26BA356E00857EBA /* LaunchScreen.storyboard */,
@@ -251,9 +245,7 @@
 			files = (
 				49D81DFC26D5F46E00DDC913 /* PlayerViewControllerCoordinator.swift in Sources */,
 				49F6E93426BA356900857EBA /* ViewController.swift in Sources */,
-				4999E4AD26D7969700D3CBAC /* UserLogin.swift in Sources */,
 				49D81DFA26D5F46600DDC913 /* PlaybackController.swift in Sources */,
-				4999E4AF26D79B1800D3CBAC /* EditableTextCell.swift in Sources */,
 				49D81E0526D5F4DA00DDC913 /* DebugHUD.swift in Sources */,
 				49D81DF826D5F45A00DDC913 /* Video.swift in Sources */,
 				49D81E0126D5F4CA00DDC913 /* VideoBrowserCell.swift in Sources */,
