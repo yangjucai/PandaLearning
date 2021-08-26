@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4999E4A326D7877F00D3CBAC /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4999E4A226D7877F00D3CBAC /* Login.storyboard */; };
+		4999E4AB26D7964500D3CBAC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4999E4AA26D7964500D3CBAC /* LoginViewController.swift */; };
+		4999E4AD26D7969700D3CBAC /* UserLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4999E4AC26D7969700D3CBAC /* UserLogin.swift */; };
+		4999E4AF26D79B1800D3CBAC /* EditableTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4999E4AE26D79B1800D3CBAC /* EditableTextCell.swift */; };
 		49D81DF826D5F45A00DDC913 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D81DF726D5F45A00DDC913 /* Video.swift */; };
 		49D81DFA26D5F46600DDC913 /* PlaybackController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D81DF926D5F46600DDC913 /* PlaybackController.swift */; };
 		49D81DFC26D5F46E00DDC913 /* PlayerViewControllerCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D81DFB26D5F46E00DDC913 /* PlayerViewControllerCoordinator.swift */; };
@@ -20,9 +24,15 @@
 		49F6E93426BA356900857EBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F6E93326BA356900857EBA /* ViewController.swift */; };
 		49F6E93926BA356E00857EBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49F6E93826BA356E00857EBA /* Assets.xcassets */; };
 		49F6E93C26BA356E00857EBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49F6E93A26BA356E00857EBA /* LaunchScreen.storyboard */; };
+		EB76E415AC1147BD9B00662E /* Pods_PandaLearning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE579F8C081D0CD3DFD12D1 /* Pods_PandaLearning.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C5BD25FE863D54F247AFF37 /* Pods-PandaLearning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PandaLearning.debug.xcconfig"; path = "Target Support Files/Pods-PandaLearning/Pods-PandaLearning.debug.xcconfig"; sourceTree = "<group>"; };
+		4999E4A226D7877F00D3CBAC /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		4999E4AA26D7964500D3CBAC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4999E4AC26D7969700D3CBAC /* UserLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLogin.swift; sourceTree = "<group>"; };
+		4999E4AE26D79B1800D3CBAC /* EditableTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableTextCell.swift; sourceTree = "<group>"; };
 		49D81DF626D5F42400DDC913 /* Using AVKit in iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Using AVKit in iOS.entitlements"; sourceTree = "<group>"; };
 		49D81DF726D5F45A00DDC913 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		49D81DF926D5F46600DDC913 /* PlaybackController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaybackController.swift; sourceTree = "<group>"; };
@@ -39,6 +49,8 @@
 		49F6E93826BA356E00857EBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49F6E93B26BA356E00857EBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49F6E93D26BA356E00857EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DE579F8C081D0CD3DFD12D1 /* Pods_PandaLearning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PandaLearning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E2FED86D997FF0652E55EDE /* Pods-PandaLearning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PandaLearning.release.xcconfig"; path = "Target Support Files/Pods-PandaLearning/Pods-PandaLearning.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB76E415AC1147BD9B00662E /* Pods_PandaLearning.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +82,8 @@
 			children = (
 				49F6E92E26BA356900857EBA /* PandaLearning */,
 				49F6E92D26BA356900857EBA /* Products */,
+				FB73EFF05B65B7C862017C96 /* Pods */,
+				F4B4F170AC9677BD82E9A125 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,11 +106,32 @@
 				49F6E93126BA356900857EBA /* SceneDelegate.swift */,
 				49D81DFD26D5F48500DDC913 /* UI Elements */,
 				49D81E0626D5F4F600DDC913 /* Main.storyboard */,
+				4999E4A226D7877F00D3CBAC /* Login.storyboard */,
+				4999E4AC26D7969700D3CBAC /* UserLogin.swift */,
+				4999E4AE26D79B1800D3CBAC /* EditableTextCell.swift */,
+				4999E4AA26D7964500D3CBAC /* LoginViewController.swift */,
 				49F6E93826BA356E00857EBA /* Assets.xcassets */,
 				49F6E93A26BA356E00857EBA /* LaunchScreen.storyboard */,
 				49F6E93D26BA356E00857EBA /* Info.plist */,
 			);
 			path = PandaLearning;
+			sourceTree = "<group>";
+		};
+		F4B4F170AC9677BD82E9A125 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DE579F8C081D0CD3DFD12D1 /* Pods_PandaLearning.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB73EFF05B65B7C862017C96 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C5BD25FE863D54F247AFF37 /* Pods-PandaLearning.debug.xcconfig */,
+				7E2FED86D997FF0652E55EDE /* Pods-PandaLearning.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,9 +141,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49F6E94026BA356E00857EBA /* Build configuration list for PBXNativeTarget "PandaLearning" */;
 			buildPhases = (
+				820C797046433C335B2D2126 /* [CP] Check Pods Manifest.lock */,
 				49F6E92826BA356900857EBA /* Sources */,
 				49F6E92926BA356900857EBA /* Frameworks */,
 				49F6E92A26BA356900857EBA /* Resources */,
+				9C9B7E42365CD44B9E8D2C33 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +193,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4999E4A326D7877F00D3CBAC /* Login.storyboard in Resources */,
 				49D81E0726D5F4F600DDC913 /* Main.storyboard in Resources */,
 				49F6E93C26BA356E00857EBA /* LaunchScreen.storyboard in Resources */,
 				49F6E93926BA356E00857EBA /* Assets.xcassets in Resources */,
@@ -163,6 +202,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		820C797046433C335B2D2126 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PandaLearning-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C9B7E42365CD44B9E8D2C33 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PandaLearning/Pods-PandaLearning-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PandaLearning/Pods-PandaLearning-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PandaLearning/Pods-PandaLearning-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		49F6E92826BA356900857EBA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -170,7 +251,9 @@
 			files = (
 				49D81DFC26D5F46E00DDC913 /* PlayerViewControllerCoordinator.swift in Sources */,
 				49F6E93426BA356900857EBA /* ViewController.swift in Sources */,
+				4999E4AD26D7969700D3CBAC /* UserLogin.swift in Sources */,
 				49D81DFA26D5F46600DDC913 /* PlaybackController.swift in Sources */,
+				4999E4AF26D79B1800D3CBAC /* EditableTextCell.swift in Sources */,
 				49D81E0526D5F4DA00DDC913 /* DebugHUD.swift in Sources */,
 				49D81DF826D5F45A00DDC913 /* Video.swift in Sources */,
 				49D81E0126D5F4CA00DDC913 /* VideoBrowserCell.swift in Sources */,
@@ -178,6 +261,7 @@
 				49F6E93226BA356900857EBA /* SceneDelegate.swift in Sources */,
 				49D81DFF26D5F4BF00DDC913 /* VideoBrowserViewController.swift in Sources */,
 				49D81E0326D5F4D300DDC913 /* VideoBrowserFlowLayout.swift in Sources */,
+				4999E4AB26D7964500D3CBAC /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +397,7 @@
 		};
 		49F6E94126BA356E00857EBA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C5BD25FE863D54F247AFF37 /* Pods-PandaLearning.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -333,6 +418,7 @@
 		};
 		49F6E94226BA356E00857EBA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E2FED86D997FF0652E55EDE /* Pods-PandaLearning.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
