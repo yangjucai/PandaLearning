@@ -1,0 +1,6 @@
+framework module Pods_PandaLearning {
+  umbrella header "Pods-PandaLearning-umbrella.h"
+
+  export *
+  module * { export * }
+}
