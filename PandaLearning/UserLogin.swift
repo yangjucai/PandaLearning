@@ -87,10 +87,11 @@ class LoginController: UIViewController {
        
 
 
-        let credentials = JSON(dictionaryLiteral: ("username",username),("password", password))
+        let credentials = JSON(dictionaryLiteral: ("email",username),("password", password))
 
         /// Connect to localhost through an URLSession
-        var loginRequest = URLRequest(url: URL(string: "http://192.168.50.19/login.php")!)
+//        var loginRequest = URLRequest(url: URL(string: "http://192.168.50.19/login.php")!)
+        var loginRequest = URLRequest(url: URL(string: "http://1.117.107.95:8000/login/")!)
         loginRequest.httpMethod = "POST"
         loginRequest.httpBody = credentials.description.data(using: .utf8)
 
