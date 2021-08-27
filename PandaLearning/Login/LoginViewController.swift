@@ -33,8 +33,12 @@ class LoginViewController: UIViewController {
     }
     
     @objc func sendLoginRequest() {
-        let username = email.text!   //获取用户名
-        let password = password.text!    //获取密码
+//        let username = email.text!   //获取用户名
+//        let password = password.text!    //获取密码
+        
+        //为调试方便
+        let username = "1165456797@qq.com"
+        let password = "Yjc123456"
         
         let urlString:String = "http://1.117.107.95:8000/login/" // 请求地址
                 let requestUrl = URL.init(string:urlString)

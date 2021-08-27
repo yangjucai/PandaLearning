@@ -221,7 +221,7 @@
         <!--发现-->
         <scene sceneID="iTW-63-7Tp">
             <objects>
-                <viewController id="tX5-z0-A3Q" sceneMemberID="viewController">
+                <viewController id="tX5-z0-A3Q" customClass="findViewController" customModule="PandaLearning" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ad8-bX-hpt">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

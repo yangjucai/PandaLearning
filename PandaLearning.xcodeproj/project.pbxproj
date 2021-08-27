@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		4999E4A326D7877F00D3CBAC /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4999E4A226D7877F00D3CBAC /* Login.storyboard */; };
 		4999E4AB26D7964500D3CBAC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4999E4AA26D7964500D3CBAC /* LoginViewController.swift */; };
+		4999E4BA26D8ED9100D3CBAC /* MyCycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4999E4B926D8ED9100D3CBAC /* MyCycleScrollView.swift */; };
+		4999E4BC26D8F0A800D3CBAC /* findViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4999E4BB26D8F0A800D3CBAC /* findViewController.swift */; };
 		49D81DF826D5F45A00DDC913 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D81DF726D5F45A00DDC913 /* Video.swift */; };
 		49D81DFA26D5F46600DDC913 /* PlaybackController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D81DF926D5F46600DDC913 /* PlaybackController.swift */; };
 		49D81DFC26D5F46E00DDC913 /* PlayerViewControllerCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D81DFB26D5F46E00DDC913 /* PlayerViewControllerCoordinator.swift */; };
@@ -29,6 +31,8 @@
 		1C5BD25FE863D54F247AFF37 /* Pods-PandaLearning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PandaLearning.debug.xcconfig"; path = "Target Support Files/Pods-PandaLearning/Pods-PandaLearning.debug.xcconfig"; sourceTree = "<group>"; };
 		4999E4A226D7877F00D3CBAC /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		4999E4AA26D7964500D3CBAC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4999E4B926D8ED9100D3CBAC /* MyCycleScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCycleScrollView.swift; sourceTree = "<group>"; };
+		4999E4BB26D8F0A800D3CBAC /* findViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findViewController.swift; sourceTree = "<group>"; };
 		49D81DF626D5F42400DDC913 /* Using AVKit in iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Using AVKit in iOS.entitlements"; sourceTree = "<group>"; };
 		49D81DF726D5F45A00DDC913 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		49D81DF926D5F46600DDC913 /* PlaybackController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaybackController.swift; sourceTree = "<group>"; };
@@ -61,6 +65,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4999E4B426D8EBB600D3CBAC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				4999E4AA26D7964500D3CBAC /* LoginViewController.swift */,
+				4999E4A226D7877F00D3CBAC /* Login.storyboard */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		4999E4B526D8EC0500D3CBAC /* player */ = {
+			isa = PBXGroup;
+			children = (
+				49D81DFB26D5F46E00DDC913 /* PlayerViewControllerCoordinator.swift */,
+				49D81DF926D5F46600DDC913 /* PlaybackController.swift */,
+				49D81DF726D5F45A00DDC913 /* Video.swift */,
+			);
+			path = player;
+			sourceTree = "<group>";
+		};
+		4999E4B626D8ECFB00D3CBAC /* function */ = {
+			isa = PBXGroup;
+			children = (
+				4999E4B826D8ED1700D3CBAC /* scrollView */,
+				4999E4B526D8EC0500D3CBAC /* player */,
+			);
+			path = function;
+			sourceTree = "<group>";
+		};
+		4999E4B826D8ED1700D3CBAC /* scrollView */ = {
+			isa = PBXGroup;
+			children = (
+				4999E4B926D8ED9100D3CBAC /* MyCycleScrollView.swift */,
+			);
+			path = scrollView;
+			sourceTree = "<group>";
+		};
 		49D81DFD26D5F48500DDC913 /* UI Elements */ = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +109,7 @@
 				49D81E0026D5F4CA00DDC913 /* VideoBrowserCell.swift */,
 				49D81E0226D5F4D200DDC913 /* VideoBrowserFlowLayout.swift */,
 				49D81E0426D5F4DA00DDC913 /* DebugHUD.swift */,
+				4999E4BB26D8F0A800D3CBAC /* findViewController.swift */,
 			);
 			path = "UI Elements";
 			sourceTree = "<group>";
@@ -95,15 +136,12 @@
 			isa = PBXGroup;
 			children = (
 				49D81DF626D5F42400DDC913 /* Using AVKit in iOS.entitlements */,
-				49D81DFB26D5F46E00DDC913 /* PlayerViewControllerCoordinator.swift */,
-				49D81DF926D5F46600DDC913 /* PlaybackController.swift */,
-				49D81DF726D5F45A00DDC913 /* Video.swift */,
 				49F6E92F26BA356900857EBA /* AppDelegate.swift */,
 				49F6E93126BA356900857EBA /* SceneDelegate.swift */,
-				49D81DFD26D5F48500DDC913 /* UI Elements */,
 				49D81E0626D5F4F600DDC913 /* Main.storyboard */,
-				4999E4A226D7877F00D3CBAC /* Login.storyboard */,
-				4999E4AA26D7964500D3CBAC /* LoginViewController.swift */,
+				4999E4B626D8ECFB00D3CBAC /* function */,
+				49D81DFD26D5F48500DDC913 /* UI Elements */,
+				4999E4B426D8EBB600D3CBAC /* Login */,
 				49F6E93826BA356E00857EBA /* Assets.xcassets */,
 				49F6E93A26BA356E00857EBA /* LaunchScreen.storyboard */,
 				49F6E93D26BA356E00857EBA /* Info.plist */,
@@ -245,6 +283,7 @@
 			files = (
 				49D81DFC26D5F46E00DDC913 /* PlayerViewControllerCoordinator.swift in Sources */,
 				49F6E93426BA356900857EBA /* ViewController.swift in Sources */,
+				4999E4BA26D8ED9100D3CBAC /* MyCycleScrollView.swift in Sources */,
 				49D81DFA26D5F46600DDC913 /* PlaybackController.swift in Sources */,
 				49D81E0526D5F4DA00DDC913 /* DebugHUD.swift in Sources */,
 				49D81DF826D5F45A00DDC913 /* Video.swift in Sources */,
@@ -252,6 +291,7 @@
 				49F6E93026BA356900857EBA /* AppDelegate.swift in Sources */,
 				49F6E93226BA356900857EBA /* SceneDelegate.swift in Sources */,
 				49D81DFF26D5F4BF00DDC913 /* VideoBrowserViewController.swift in Sources */,
+				4999E4BC26D8F0A800D3CBAC /* findViewController.swift in Sources */,
 				49D81E0326D5F4D300DDC913 /* VideoBrowserFlowLayout.swift in Sources */,
 				4999E4AB26D7964500D3CBAC /* LoginViewController.swift in Sources */,
 			);
