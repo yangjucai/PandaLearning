@@ -225,8 +225,22 @@
                     <view key="view" contentMode="scaleToFill" id="Ad8-bX-hpt">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yl9-UE-sUn">
+                                <rect key="frame" x="153" y="424" width="94" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="XME-X2-n3f"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="XME-X2-n3f" firstAttribute="trailing" secondItem="yl9-UE-sUn" secondAttribute="trailing" constant="167" id="15N-w3-r43"/>
+                            <constraint firstItem="XME-X2-n3f" firstAttribute="bottom" secondItem="yl9-UE-sUn" secondAttribute="bottom" constant="341" id="Ic1-vW-Jaf"/>
+                            <constraint firstItem="yl9-UE-sUn" firstAttribute="top" secondItem="XME-X2-n3f" secondAttribute="top" constant="380" id="gXr-v5-v3J"/>
+                            <constraint firstItem="yl9-UE-sUn" firstAttribute="leading" secondItem="XME-X2-n3f" secondAttribute="leading" constant="153" id="yKB-Co-sE1"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="发现" image="moon.stars.fill" catalog="system" id="ACa-QS-Oph"/>
                 </viewController>
