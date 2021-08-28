@@ -27,7 +27,7 @@ extension Video {
     
     static func makeVideos() -> [Video] {
         return [
-            Video(hlsUrl: URL(string: "http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4")!,
+            Video(hlsUrl: URL(string: "https://media.w3.org/2010/05/sintel/trailer.mp4")!,
                   title: "big buck bunny",
                   duration: 2946),
             Video(hlsUrl: URL(string: "http://vfx.mtime.cn/Video/2019/02/04/mp4/190204084208765161.mp4")!,

@@ -26,6 +26,9 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_zh" translatesAutoresizingMaskIntoConstraints="NO" id="prk-u7-N6E">
                                 <rect key="frame" x="87" y="673.5" width="240" height="144.5"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LOGO" translatesAutoresizingMaskIntoConstraints="NO" id="FcH-Tg-s65">
+                                <rect key="frame" x="68.5" y="245" width="277" height="406"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -36,17 +39,20 @@
                             <constraint firstItem="sI3-X2-KNA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="TX8-vk-NAD"/>
                             <constraint firstItem="sI3-X2-KNA" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="UCS-iH-dFx"/>
                             <constraint firstItem="sI3-X2-KNA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="29.5" id="Uyt-o3-bIh"/>
+                            <constraint firstItem="FcH-Tg-s65" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="cGe-me-JgM"/>
                             <constraint firstAttribute="bottom" secondItem="prk-u7-N6E" secondAttribute="bottom" constant="78" id="cp7-jo-wPr"/>
+                            <constraint firstItem="FcH-Tg-s65" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="gQX-I3-gST"/>
                             <constraint firstItem="prk-u7-N6E" firstAttribute="top" secondItem="sI3-X2-KNA" secondAttribute="bottom" constant="557" id="ljC-TM-gbB"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
         </scene>
     </scenes>
     <resources>
+        <image name="LOGO" width="277" height="406"/>
         <image name="logo_zh" width="485" height="144.5"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

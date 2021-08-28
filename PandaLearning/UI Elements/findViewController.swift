@@ -12,13 +12,14 @@ class findViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let cycleScrollView = MYCycleScrollView(frame: CGRect(x: 0, y: 50, width: view.bounds.width, height: 300))
+        let cycleScrollView = MYCycleScrollView(frame: CGRect(x: 0, y: 140, width: view.bounds.width, height: 300))
         cycleScrollView.imageURLs = [ "https://s3.bmp.ovh/imgs/2021/08/c36e908c93e0fa1e.png",
                                        "https://i.bmp.ovh/imgs/2021/08/03970bbfaf60b395.gif",
                                         "https://s3.bmp.ovh/imgs/2021/08/23403d5a47e77e66.png"]
         cycleScrollView.autoScrollTimeInterval = 5
         cycleScrollView.imageViewContentMode = .scaleAspectFill
         cycleScrollView.delegate = self
+        
         self.view.addSubview(cycleScrollView)
 
         // Do any additional setup after loading the view.

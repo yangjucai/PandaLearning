@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="c1s-jT-2Vh">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="ipad10_2" orientation="landscape" layout="fullscreen" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
@@ -15,7 +15,7 @@
             <objects>
                 <collectionViewController id="deX-QA-OGQ" customClass="VideoBrowserViewController" customModule="PandaLearning" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="iAr-7L-VkR">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="wTf-pz-MLG" customClass="VideoBrowserFlowLayout" customModule="PandaLearning" customModuleProvider="target">
@@ -108,26 +108,26 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="emQ-dE-8P7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6845" y="145"/>
+            <point key="canvasLocation" x="3721" y="-1187"/>
         </scene>
         <!--Using AVKit in iOS-->
         <scene sceneID="U6A-If-fOm">
             <objects>
                 <tableViewController storyboardIdentifier="Sample Catalog View Controller" title="Using AVKit in iOS" useStoryboardIdentifierAsRestorationIdentifier="YES" id="NXa-uH-hWE" customClass="ViewController" customModule="PandaLearning" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="D2g-Rx-MaT">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="SampleCatalogCell" textLabel="Hio-YD-CKt" style="IBUITableViewCellStyleDefault" id="CKo-P8-gyh">
-                                <rect key="frame" x="0.0" y="49.5" width="414" height="43.5"/>
+                                <rect key="frame" x="0.0" y="49.5" width="1080" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="CKo-P8-gyh" id="y7S-DG-Xas">
-                                    <rect key="frame" x="0.0" y="0.0" width="384.5" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="1050.5" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Hio-YD-CKt">
-                                            <rect key="frame" x="20" y="0.0" width="356.5" height="43.5"/>
+                                            <rect key="frame" x="20" y="0.0" width="1022.5" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
                                             <nil key="textColor"/>
@@ -149,7 +149,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yn1-P6-bH9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5839" y="145"/>
+            <point key="canvasLocation" x="2766" y="-1187"/>
         </scene>
         <!--学习-->
         <scene sceneID="cKT-Ur-8at">
@@ -157,8 +157,9 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="Za4-do-vEu" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="学习" image="book" catalog="system" id="Som-N0-xv2"/>
                     <toolbarItems/>
+                    <navigationItem key="navigationItem" id="PeW-eX-qdX"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="UVC-Oe-L9z">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="50"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -168,85 +169,319 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hwD-7T-uA9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4936" y="145"/>
+            <point key="canvasLocation" x="1904" y="-1187"/>
+        </scene>
+        <!--社区-->
+        <scene sceneID="gQr-DF-Dhc">
+            <objects>
+                <navigationController id="RKL-JN-vN7" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="社区" image="building.columns" catalog="system" id="2Qi-iS-1SX"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="UnB-ba-3Qt">
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="50"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="oan-gw-CGa" kind="relationship" relationship="rootViewController" id="OJM-8t-SrA"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hM2-CF-Ogm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-59" y="54"/>
         </scene>
         <!--社区-->
         <scene sceneID="naZ-Dn-sB1">
             <objects>
                 <viewController id="oan-gw-CGa" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Mhc-5d-xVX">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="84M-qn-AnC"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="社区" image="building.columns" catalog="system" id="PqL-qX-zqm"/>
+                    <navigationItem key="navigationItem" id="5qF-hd-pc5"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e3i-hu-Zmb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="845" y="54"/>
         </scene>
         <!--我的-->
+        <scene sceneID="Nbt-fD-GFW">
+            <objects>
+                <navigationController id="VXe-e4-1Am" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="我的" image="person" catalog="system" id="8gK-OQ-w5z"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="kZa-Hc-y6L">
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="50"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="S5A-0u-8gt" kind="relationship" relationship="rootViewController" id="q1n-Qf-Be6"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zIB-a1-aAb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-198" y="3073"/>
+        </scene>
+        <!--我的-->
         <scene sceneID="yvt-14-gIi">
             <objects>
                 <viewController id="S5A-0u-8gt" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="axa-1T-xcT">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="我的" translatesAutoresizingMaskIntoConstraints="NO" id="wVb-eV-MP4">
+                                <rect key="frame" x="0.0" y="0.0" width="1080" height="760"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="zfW-vJ-MCU"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="wVb-eV-MP4" firstAttribute="top" secondItem="axa-1T-xcT" secondAttribute="top" id="CtD-bM-DGy"/>
+                            <constraint firstItem="wVb-eV-MP4" firstAttribute="leading" secondItem="axa-1T-xcT" secondAttribute="leading" id="Mdq-mN-7lQ"/>
+                            <constraint firstAttribute="trailing" secondItem="wVb-eV-MP4" secondAttribute="trailing" id="PZO-eV-1xp"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="wVb-eV-MP4" secondAttribute="bottom" id="xIy-QH-8nx"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="我的" image="person" catalog="system" id="WPk-yU-Xhm"/>
+                    <navigationItem key="navigationItem" id="Z3b-4b-UPX"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AKQ-8f-6K9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="845" y="3046"/>
         </scene>
         <!--复习-->
+        <scene sceneID="IGu-IZ-lWZ">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bXc-sV-S9V" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <navigationController id="RDD-rE-4Nr" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="复习" image="eyeglasses" catalog="system" id="ENU-gc-EHx"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="t7k-aq-WF7">
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="50"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="MkP-dO-xqE" kind="relationship" relationship="rootViewController" id="SyR-lm-Kmu"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="-209" y="2231"/>
+        </scene>
+        <!--复习-->
         <scene sceneID="cp3-fL-VNz">
             <objects>
                 <viewController id="MkP-dO-xqE" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="e2i-Gb-XgD">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="bUE-4d-3TU">
+                                <rect key="frame" x="365" y="75" width="350" height="80"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="DlX-Dl-zMZ" userLabel="已学词汇">
+                                        <rect key="frame" x="0.0" y="12.5" width="116.5" height="55.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="已学词汇" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XWz-YK-L62">
+                                                <rect key="frame" x="0.0" y="0.0" width="116.5" height="25"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <color key="shadowColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <size key="shadowOffset" width="1" height="-1"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="16/43" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5hw-6M-QoX">
+                                                <rect key="frame" x="0.0" y="35" width="116.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="BOb-2u-CW7" userLabel="已学歌曲">
+                                        <rect key="frame" x="116.5" y="12.5" width="117" height="55.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="已学歌曲" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="utF-8S-KHf">
+                                                <rect key="frame" x="0.0" y="0.0" width="117" height="25"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <color key="shadowColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <size key="shadowOffset" width="1" height="-1"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7/20" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GyN-Ny-ZAC">
+                                                <rect key="frame" x="0.0" y="35" width="117" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="FsZ-VD-HeN" userLabel="已学句子">
+                                        <rect key="frame" x="233.5" y="12.5" width="116.5" height="55.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="已学句子" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tt5-cq-iXQ">
+                                                <rect key="frame" x="0.0" y="0.0" width="116.5" height="25"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <color key="shadowColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <size key="shadowOffset" width="1" height="-1"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6PN-tq-JfG">
+                                                <rect key="frame" x="0.0" y="35" width="116.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.26666668059999998" blue="0.44313728810000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="350" id="5SX-Zy-5ME"/>
+                                    <constraint firstAttribute="height" constant="80" id="LH9-Ms-RfY"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="jWt-JH-KGs">
+                                <rect key="frame" x="365" y="175" width="350" height="560"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fKe-ZL-NEd">
+                                        <rect key="frame" x="0.0" y="0.0" width="350" height="140"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="350" id="S2B-es-ek1"/>
+                                            <constraint firstAttribute="height" constant="140" id="l18-GC-Kwf"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="我的歌曲" backgroundImage="图层 7 拷贝">
+                                            <color key="titleColor" red="1" green="0.26666668059999998" blue="0.44313728810000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mOb-uT-LXJ">
+                                        <rect key="frame" x="0.0" y="140" width="350" height="140"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="140" id="SDn-aW-dRw"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="我的关注" backgroundImage="图层 7 拷贝">
+                                            <color key="titleColor" red="1" green="0.26666668059999998" blue="0.44313728810000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hyh-VY-WVC">
+                                        <rect key="frame" x="0.0" y="280" width="350" height="140"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="140" id="5I8-fq-f1F"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="我的学习" backgroundImage="图层 7 拷贝">
+                                            <color key="titleColor" red="1" green="0.26666668059999998" blue="0.44313728810000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pgp-Sy-HVd">
+                                        <rect key="frame" x="0.0" y="420" width="350" height="140"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="140" id="P9E-C3-Ub1"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="我的词句收藏" backgroundImage="图层 7 拷贝">
+                                            <color key="titleColor" red="1" green="0.26666668059999998" blue="0.44313728810000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="7B8-3F-krK"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="jWt-JH-KGs" firstAttribute="top" secondItem="bUE-4d-3TU" secondAttribute="bottom" constant="20" id="0OR-0Y-IRV"/>
+                            <constraint firstItem="bUE-4d-3TU" firstAttribute="centerX" secondItem="e2i-Gb-XgD" secondAttribute="centerX" id="136-Fj-qfg"/>
+                            <constraint firstItem="jWt-JH-KGs" firstAttribute="centerX" secondItem="e2i-Gb-XgD" secondAttribute="centerX" id="x2C-89-wlG"/>
+                            <constraint firstItem="bUE-4d-3TU" firstAttribute="top" secondItem="7B8-3F-krK" secondAttribute="top" constant="25" id="zaN-zs-Oyp"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="复习" image="eyeglasses" catalog="system" id="Sew-1y-qHh"/>
+                    <navigationItem key="navigationItem" id="BWA-rB-Pc7"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="723-gB-TnH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="845" y="2227"/>
+            <point key="canvasLocation" x="844.92753623188412" y="2226.5625"/>
         </scene>
         <!--发现-->
+        <scene sceneID="knc-mI-Cz6">
+            <objects>
+                <navigationController id="501-bD-9SO" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="发现" image="moon.stars" catalog="system" id="Ox8-Pj-DzK"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="KZI-uo-020">
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="50"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="tX5-z0-A3Q" kind="relationship" relationship="rootViewController" id="avl-pz-nUM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fbx-yo-4cC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-58" y="-1065"/>
+        </scene>
+        <!--熊猫唱学-->
         <scene sceneID="iTW-63-7Tp">
             <objects>
                 <viewController id="tX5-z0-A3Q" customClass="findViewController" customModule="PandaLearning" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ad8-bX-hpt">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yl9-UE-sUn">
-                                <rect key="frame" x="153" y="424" width="94" height="48"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="i3w-gv-yUZ" userLabel="搜索">
+                                <rect key="frame" x="360" y="60" width="360" height="50"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LOGOsquare" translatesAutoresizingMaskIntoConstraints="NO" id="CbE-MA-mtO">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="mIh-bR-oIu"/>
+                                            <constraint firstAttribute="width" constant="50" id="zjE-14-yEM"/>
+                                        </constraints>
+                                    </imageView>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="搜索" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EGA-Ay-Z6n">
+                                        <rect key="frame" x="58" y="0.0" width="244" height="50"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fmI-ag-chW" userLabel="放大镜">
+                                        <rect key="frame" x="310" y="0.0" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="2Id-bd-U3M"/>
+                                        </constraints>
+                                        <state key="normal" backgroundImage="图层 5"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="fmI-ag-chW" firstAttribute="leading" secondItem="EGA-Ay-Z6n" secondAttribute="trailing" constant="8" id="PTQ-Wx-rJa"/>
+                                    <constraint firstAttribute="width" constant="360" id="wh6-03-lbd"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3vX-Cv-cv0">
+                                <rect key="frame" x="452" y="645" width="176" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <state key="normal" title="btnVideoPlay"/>
+                                <connections>
+                                    <segue destination="NXa-uH-hWE" kind="show" id="7s2-Tr-w7T"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="XME-X2-n3f"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="XME-X2-n3f" firstAttribute="trailing" secondItem="yl9-UE-sUn" secondAttribute="trailing" constant="167" id="15N-w3-r43"/>
-                            <constraint firstItem="XME-X2-n3f" firstAttribute="bottom" secondItem="yl9-UE-sUn" secondAttribute="bottom" constant="341" id="Ic1-vW-Jaf"/>
-                            <constraint firstItem="yl9-UE-sUn" firstAttribute="top" secondItem="XME-X2-n3f" secondAttribute="top" constant="380" id="gXr-v5-v3J"/>
-                            <constraint firstItem="yl9-UE-sUn" firstAttribute="leading" secondItem="XME-X2-n3f" secondAttribute="leading" constant="153" id="yKB-Co-sE1"/>
+                            <constraint firstItem="i3w-gv-yUZ" firstAttribute="top" secondItem="XME-X2-n3f" secondAttribute="top" constant="10" id="FOA-FJ-Tiy"/>
+                            <constraint firstItem="i3w-gv-yUZ" firstAttribute="centerX" secondItem="Ad8-bX-hpt" secondAttribute="centerX" id="WN5-0u-4PI"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="发现" image="moon.stars.fill" catalog="system" id="ACa-QS-Oph"/>
+                    <tabBarItem key="tabBarItem" title="发现" image="moon.stars" catalog="system" id="ACa-QS-Oph"/>
+                    <navigationItem key="navigationItem" title="熊猫唱学" id="uY1-0R-1bL"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="042-OF-7Fo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="845" y="-1065"/>
+            <point key="canvasLocation" x="844.44444444444446" y="-1065.9259259259259"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="43I-Jw-SRM">
@@ -258,40 +493,164 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="tX5-z0-A3Q" kind="relationship" relationship="viewControllers" id="m5y-gl-agD"/>
-                        <segue destination="oan-gw-CGa" kind="relationship" relationship="viewControllers" id="yu7-CR-C2e"/>
-                        <segue destination="tz7-bD-BVz" kind="relationship" relationship="viewControllers" id="4zq-bY-Vf6"/>
-                        <segue destination="MkP-dO-xqE" kind="relationship" relationship="viewControllers" id="qxN-u6-OrT"/>
-                        <segue destination="S5A-0u-8gt" kind="relationship" relationship="viewControllers" id="pVG-qM-t4v"/>
+                        <segue destination="501-bD-9SO" kind="relationship" relationship="viewControllers" id="Bgn-Hk-uhK"/>
+                        <segue destination="RKL-JN-vN7" kind="relationship" relationship="viewControllers" id="7Q6-ep-inw"/>
+                        <segue destination="Mo1-S9-s5m" kind="relationship" relationship="viewControllers" id="M1l-IZ-eun"/>
+                        <segue destination="RDD-rE-4Nr" kind="relationship" relationship="viewControllers" id="8Cj-uL-UJN"/>
+                        <segue destination="VXe-e4-1Am" kind="relationship" relationship="viewControllers" id="UoY-AN-iNX"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7we-8P-fss" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-94" y="1300"/>
+            <point key="canvasLocation" x="-1441" y="1299"/>
+        </scene>
+        <!--学习-->
+        <scene sceneID="c8D-Vg-2xz">
+            <objects>
+                <navigationController id="Mo1-S9-s5m" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="学习" image="book" catalog="system" id="U9v-yc-lrp"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hDg-v8-jXt">
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="50"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="tz7-bD-BVz" kind="relationship" relationship="rootViewController" id="wQ0-Kg-Odi"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6fk-1G-o8S" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-49" y="1304"/>
         </scene>
         <!--学习-->
         <scene sceneID="akm-lW-3gu">
             <objects>
                 <viewController id="tz7-bD-BVz" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xmM-qG-WzR">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Shading2" highlightedImage="Shading1" translatesAutoresizingMaskIntoConstraints="NO" id="zdo-Gh-Vds">
+                                <rect key="frame" x="0.0" y="-120" width="1032" height="376"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Shading1" translatesAutoresizingMaskIntoConstraints="NO" id="RbD-7v-pDv">
+                                <rect key="frame" x="40" y="553" width="1040" height="377"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dMc-Q8-WEB" userLabel="返回">
+                                <rect key="frame" x="40" y="70" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="U9X-Kr-9a0"/>
+                                    <constraint firstAttribute="width" constant="80" id="xu5-Iv-9Re"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="返回"/>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="ETY-7E-rc4" userLabel="播诵">
+                                <rect key="frame" x="465" y="660" width="150" height="60"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="es7-L5-0s8" userLabel="诵">
+                                        <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="O6s-U1-hkU"/>
+                                            <constraint firstAttribute="width" constant="60" id="cb7-4L-Gch"/>
+                                        </constraints>
+                                        <state key="normal" backgroundImage="播放"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="42K-L4-p2V" userLabel="播放">
+                                        <rect key="frame" x="90" y="0.0" width="60" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="EYq-U5-321"/>
+                                        </constraints>
+                                        <state key="normal" backgroundImage="诵"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="rwK-zy-On9" userLabel="听唱词练">
+                                <rect key="frame" x="379.5" y="180" width="321" height="43.5"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nls-c7-74k" userLabel="听">
+                                        <rect key="frame" x="0.0" y="0.0" width="69" height="43.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="nls-c7-74k" secondAttribute="height" multiplier="84:53" id="fvx-hW-th0"/>
+                                            <constraint firstAttribute="width" constant="69" id="hhM-fZ-Ps4"/>
+                                        </constraints>
+                                        <state key="normal" backgroundImage="听"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Mw-bs-Q7S" userLabel="唱">
+                                        <rect key="frame" x="84" y="0.0" width="69" height="43.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="69" id="bAE-aR-MBb"/>
+                                        </constraints>
+                                        <state key="normal" backgroundImage="唱"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g8X-mv-snV" userLabel="词">
+                                        <rect key="frame" x="168" y="0.0" width="69" height="43.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="69" id="sng-yj-bfM"/>
+                                        </constraints>
+                                        <state key="normal" backgroundImage="词"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ezp-y9-JFk" userLabel="练">
+                                        <rect key="frame" x="252" y="0.0" width="69" height="43.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="69" id="AzS-mK-dP9"/>
+                                        </constraints>
+                                        <state key="normal" backgroundImage="练"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="歌词底纹" translatesAutoresizingMaskIntoConstraints="NO" id="yLI-Gt-aXe">
+                                <rect key="frame" x="99.5" y="248.5" width="881" height="313"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Rkq-tE-9Jg"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="yLI-Gt-aXe" firstAttribute="centerX" secondItem="xmM-qG-WzR" secondAttribute="centerX" id="0qT-gk-gyW"/>
+                            <constraint firstItem="dMc-Q8-WEB" firstAttribute="leading" secondItem="Rkq-tE-9Jg" secondAttribute="leading" constant="40" id="BkN-AG-9cf"/>
+                            <constraint firstItem="rwK-zy-On9" firstAttribute="centerX" secondItem="xmM-qG-WzR" secondAttribute="centerX" id="FUf-Mh-Rlo"/>
+                            <constraint firstItem="Rkq-tE-9Jg" firstAttribute="bottom" secondItem="ETY-7E-rc4" secondAttribute="bottom" constant="40" id="Ffe-qu-LAC"/>
+                            <constraint firstItem="yLI-Gt-aXe" firstAttribute="top" secondItem="rwK-zy-On9" secondAttribute="bottom" constant="25" id="Hh7-j5-CgW"/>
+                            <constraint firstAttribute="trailing" secondItem="RbD-7v-pDv" secondAttribute="trailing" id="Mn3-kD-P7e"/>
+                            <constraint firstItem="zdo-Gh-Vds" firstAttribute="top" secondItem="xmM-qG-WzR" secondAttribute="top" constant="-120" id="Z3g-ae-07h"/>
+                            <constraint firstItem="yLI-Gt-aXe" firstAttribute="centerY" secondItem="xmM-qG-WzR" secondAttribute="centerY" id="gi5-GG-LPq"/>
+                            <constraint firstItem="zdo-Gh-Vds" firstAttribute="leading" secondItem="xmM-qG-WzR" secondAttribute="leading" id="i19-eZ-a9H"/>
+                            <constraint firstItem="ETY-7E-rc4" firstAttribute="centerX" secondItem="xmM-qG-WzR" secondAttribute="centerX" id="krh-PI-kS4"/>
+                            <constraint firstItem="yLI-Gt-aXe" firstAttribute="top" secondItem="rwK-zy-On9" secondAttribute="bottom" constant="25" id="lUX-yj-fbe"/>
+                            <constraint firstItem="rwK-zy-On9" firstAttribute="top" secondItem="dMc-Q8-WEB" secondAttribute="bottom" constant="30" id="plz-tr-uZI"/>
+                            <constraint firstItem="dMc-Q8-WEB" firstAttribute="top" secondItem="Rkq-tE-9Jg" secondAttribute="top" constant="20" id="s9U-yV-h1T"/>
+                            <constraint firstAttribute="bottom" secondItem="RbD-7v-pDv" secondAttribute="bottom" constant="-120" id="yLa-W1-LkS"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="学习" image="book" catalog="system" id="ZU0-pN-V2c"/>
+                    <navigationItem key="navigationItem" id="DCu-TL-pVL"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SQ4-l3-qRy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1077" y="1300"/>
+            <point key="canvasLocation" x="1076.8115942028987" y="1299.1071428571429"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="gVD-cZ-GHi"/>
+    </inferredMetricsTieBreakers>
     <resources>
+        <image name="LOGOsquare" width="277" height="277"/>
+        <image name="Shading1" width="1040" height="377"/>
+        <image name="Shading2" width="1032" height="376"/>
         <image name="book" catalog="system" width="128" height="102"/>
         <image name="building.columns" catalog="system" width="128" height="113"/>
         <image name="eyeglasses" catalog="system" width="128" height="54"/>
-        <image name="moon.stars.fill" catalog="system" width="128" height="124"/>
+        <image name="moon.stars" catalog="system" width="128" height="124"/>
         <image name="person" catalog="system" width="128" height="117"/>
+        <image name="听" width="168" height="106"/>
+        <image name="唱" width="168" height="106"/>
+        <image name="图层 5" width="108" height="113"/>
+        <image name="图层 7 拷贝" width="845" height="404"/>
+        <image name="我的" width="375" height="812"/>
+        <image name="播放" width="140" height="140"/>
+        <image name="歌词底纹" width="881" height="1265"/>
+        <image name="练" width="168" height="106"/>
+        <image name="词" width="168" height="106"/>
+        <image name="诵" width="140" height="140"/>
+        <image name="返回" width="173" height="172"/>
         <systemColor name="groupTableViewBackgroundColor">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
