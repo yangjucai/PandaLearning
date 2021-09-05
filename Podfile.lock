@@ -1,20 +1,53 @@
 PODS:
+  - Alamofire (5.4.3)
+  - AlamofireImage (4.2.0):
+    - Alamofire (~> 5.4)
   - Kingfisher (6.3.1)
+  - PromiseKit (6.15.3):
+    - PromiseKit/CorePromise (= 6.15.3)
+    - PromiseKit/Foundation (= 6.15.3)
+    - PromiseKit/UIKit (= 6.15.3)
+  - PromiseKit/CorePromise (6.15.3)
+  - PromiseKit/Foundation (6.15.3):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.15.3):
+    - PromiseKit/CorePromise
+  - ReactiveCocoa (11.2.1):
+    - ReactiveSwift (~> 6.6)
+  - ReactiveSwift (6.6.1)
+  - SkeletonView (1.24.4)
   - SwiftyJSON (5.0.1)
 
 DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
   - Kingfisher
+  - PromiseKit
+  - ReactiveCocoa
+  - SkeletonView
   - SwiftyJSON
 
 SPEC REPOS:
   trunk:
+    - Alamofire
+    - AlamofireImage
     - Kingfisher
+    - PromiseKit
+    - ReactiveCocoa
+    - ReactiveSwift
+    - SkeletonView
     - SwiftyJSON
 
 SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  AlamofireImage: 34a2d90b0e5fe6a5605f85ae4b7b01e784c60192
   Kingfisher: 016c8b653a35add51dd34a3aba36b580041acc74
+  PromiseKit: 3b2b6995e51a954c46dbc550ce3da44fbfb563c5
+  ReactiveCocoa: 194289e7069037d40c59cb4ae9230f4b1ec05fa8
+  ReactiveSwift: fab34244ad908808dc822bae352a058c8837c4ca
+  SkeletonView: c8632f212fcce7b7ba742c3d4a5af3596b5fa5ae
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
 
-PODFILE CHECKSUM: ec8f3afa4c9f1864f727af0f9224122a4b3c7b85
+PODFILE CHECKSUM: 306afcfb6899dac37c9f5cf5c18c58f1e42ec97d
 
 COCOAPODS: 1.10.2

@@ -15,6 +15,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let navigation = UINavigationController(rootViewController: findViewController())
+        self.window?.rootViewController = navigation
+        
+        Thread.sleep(forTimeInterval: 1)
+        
         return true
     }
 

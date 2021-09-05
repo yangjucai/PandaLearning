@@ -129,6 +129,10 @@ open class MYCycleScrollView: UIView {
         self.addSubview(pageControl)
         pageControl.hidesForSinglePage = true
         pageControl.isUserInteractionEnabled = false
+        
+    
+        
+        
     }
     private func setupPageControl() {
         pageControl.numberOfPages = imageURLs.count
