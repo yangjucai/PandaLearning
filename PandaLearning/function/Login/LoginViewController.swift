@@ -13,6 +13,7 @@ class LoginViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        password.isSecureTextEntry = true
 
         // Do any additional setup after loading the view.
     }
@@ -33,6 +34,7 @@ class LoginViewController: UIViewController {
     }
     
     @objc func sendLoginRequest() {
+        
         let username = email.text!   //获取用户名
         let password = password.text!    //获取密码
         
